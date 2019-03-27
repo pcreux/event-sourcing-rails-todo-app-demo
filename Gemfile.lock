@@ -73,7 +73,7 @@ GEM
       activesupport (>= 4.2.0)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
-    jbuilder (2.7.0)
+    jbuilder (2.8.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
     listen (3.1.5)
@@ -186,7 +186,7 @@ DEPENDENCIES
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
-  jbuilder (~> 2.5)
+  jbuilder (~> 2.8)
   listen (>= 3.0.5, < 3.2)
   puma (~> 3.12)
   rails (~> 5.2.2)
