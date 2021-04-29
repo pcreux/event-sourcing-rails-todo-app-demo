@@ -1,0 +1,23 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "13:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: nokogiri
+    versions:
+    - 1.11.1
+    - 1.11.2
+  - dependency-name: rails
+    versions:
+    - 5.2.4.4
+    - 5.2.4.5
+  - dependency-name: capybara
+    versions:
+    - 3.35.1
+  - dependency-name: loofah
+    versions:
+    - 2.9.0
